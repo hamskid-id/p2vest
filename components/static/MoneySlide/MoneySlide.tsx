@@ -62,14 +62,11 @@ export const MoneySlide = () => {
                       imgStyle='sm:rounded-[52px] rounded-[32px] object-none'
                       priority={slide.id === 1}
                     />
-                    <RevealAnimation direction='down' delay={0.6}>
-                      <Text
-                        as='p'
+                      <p
                         className='text-white leading-[20px] text-[16px] font-[500] absolute sm:bottom-[2rem] bottom-[1.5rem] sm:left-[2rem] left-[1.5rem] sm:right-[2rem] right-[1.5rem]'
                       >
                         {slide.text}
-                      </Text>
-                    </RevealAnimation>
+                      </p>
                   </div>
                 </RevealAnimation>
 
